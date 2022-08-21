@@ -222,6 +222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 8
+  sprintSpeed: 16
   maxJumpHeight: 4.3
   maxJumpTime: 1.15
 --- !u!114 &7533046483716182721

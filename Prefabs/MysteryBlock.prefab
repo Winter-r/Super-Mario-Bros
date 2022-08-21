@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4102666232345669483}
   - component: {fileID: 459295884388245835}
   - component: {fileID: 2855433900989904617}
+  - component: {fileID: 6249618487973843783}
+  - component: {fileID: 2384208564959383326}
   m_Layer: 0
   m_Name: MysteryBlock
   m_TagString: Untagged
@@ -74,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: a2af9c3c84baed44f9eb311eeb2e1eea, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1a19dd6dacab4b41936bc6e6e17472b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -111,3 +113,41 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &6249618487973843783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59283073619637834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d385925852c1a1498f999d1e8a081a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: f1a19dd6dacab4b41936bc6e6e17472b, type: 3}
+  - {fileID: 21300000, guid: f1a19dd6dacab4b41936bc6e6e17472b, type: 3}
+  - {fileID: 21300000, guid: bdebd66875ee2c74b941e5a7054ef8e5, type: 3}
+  - {fileID: 21300000, guid: bdebd66875ee2c74b941e5a7054ef8e5, type: 3}
+  - {fileID: 21300000, guid: 97c3fb172dbfe8144abfbbb73c39019c, type: 3}
+  - {fileID: 21300000, guid: 97c3fb172dbfe8144abfbbb73c39019c, type: 3}
+  - {fileID: 21300000, guid: bdebd66875ee2c74b941e5a7054ef8e5, type: 3}
+  - {fileID: 21300000, guid: bdebd66875ee2c74b941e5a7054ef8e5, type: 3}
+  - {fileID: 21300000, guid: f1a19dd6dacab4b41936bc6e6e17472b, type: 3}
+  - {fileID: 21300000, guid: f1a19dd6dacab4b41936bc6e6e17472b, type: 3}
+  framerate: 0.1
+--- !u!114 &2384208564959383326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59283073619637834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394ee9fe0c3e0c14cadd2fcb68553a90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emptyBlock: {fileID: 21300000, guid: 51fa7b573ac77b542ab32db7234ff588, type: 3}
+  maxHits: 1
